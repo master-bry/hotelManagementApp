@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#DD18E6E2"
+    android:layout_height="match_parent"
+    tools:context=".activitylogin"
+    tools:ignore="NamespaceTypo">
+
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:src="@drawable/img2"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+</FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/b1"
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white">
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/b1"
+        android:textColorHint="@color/white"
+        app:hintTextColor="@color/white"
+        app:passwordToggleEnabled="true"
+        android:digits="abcdefghijklmnopqrstuvwxyz@#_0123456789"
+        app:passwordToggleTint="@color/b2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userPass"
+            android:drawablePadding="16dp"
+            android:fontFamily="sans-serif-condensed"
+
+            android:digits="abcdefghijklmnopqrstuvwxyz@#_0123456789"
+            android:inputType="textPassword"
+            android:maxLength="30"
+            android:maxLines="1"
+            android:hint="password"
+            tools:ignore="HardcodedText" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:maxLength="30"
+            android:maxLines="1"
+
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:backgroundTint="#6E87673F"
+        android:layout_width="339dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:layout_height="64dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
