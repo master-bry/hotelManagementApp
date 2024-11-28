@@ -2,11 +2,9 @@
     <string name="app_name">HotelManagement</string>
     <string name="username">username</string>
 
-    <array name="gender" >
-
-        <item> Select Gender </item>
-        <item> Male </item>
-        <item> Female </item>
-
+    <array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
     </array>
 </resources>
