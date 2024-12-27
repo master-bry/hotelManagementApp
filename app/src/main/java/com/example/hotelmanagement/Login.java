@@ -18,8 +18,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_activitylogin);
-
-        mvtoreg = findViewById(R.id.mvtoregister);
+        mvtoreg = findViewById(R.id.mvregister);
         mvtoreg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

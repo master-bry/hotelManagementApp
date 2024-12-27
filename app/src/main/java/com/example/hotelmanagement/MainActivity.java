@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         username = findViewById(R.id.userId);
         password = findViewById(R.id.userPass);
         login = findViewById(R.id.button_login);
-        mvetoreg=findViewById(R.id.mvtoregister);
+        mvetoreg=findViewById(R.id.mvregister);
         mvetoreg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
