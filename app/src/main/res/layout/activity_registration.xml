@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:background="#DD18E6E2"
+    android:layout_marginBottom="30dp"
     android:layout_height="match_parent"
     tools:context=".Registration"
     tools:ignore="NamespaceTypo">
@@ -177,6 +178,7 @@
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:id="@+id/male1"
+                   android:backgroundTint="#063094"
                    android:text="male"
                    android:textSize="20sp"
                    android:checked="true"/>
@@ -184,6 +186,7 @@
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:id="@+id/female1"
+                   android:backgroundTint="#063094"
                    android:textSize="20sp"
                    android:text="Female"/>
 
@@ -195,7 +198,7 @@
                 android:backgroundTint="#6F142062"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="2dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
@@ -204,14 +207,16 @@
                 android:text="REGISTER"
                 android:layout_gravity="center"/>
 
-            <Button
+            <TextView
                 android:id="@+id/mvlogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="login_here"
                 android:layout_gravity="right"
                 android:textColor="#063094"
+                android:textStyle="bold"
                 android:textSize="20sp"
+                android:backgroundTint="#6F142062"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="1dp"/>
         </LinearLayout>

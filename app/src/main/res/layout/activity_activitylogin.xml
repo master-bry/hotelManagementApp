@@ -117,13 +117,15 @@
                 android:layout_gravity="center"
                 tools:ignore="HardcodedText" />
 
-            <Button
+            <TextView
                 android:id="@+id/mvregister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Register_here"
+                android:backgroundTint="#6F142062"
                 android:layout_gravity="right"
-                android:textColor="@color/white"
+                android:textColor="@color/b3"
+                android:textStyle="bold"
                 android:textSize="20sp"
                 android:layout_marginRight="30dp"
                 android:padding="15dp"

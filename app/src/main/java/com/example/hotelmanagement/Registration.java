@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -12,10 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Registration extends AppCompatActivity {
 
-    Button mvtolog;
-
-
-    @SuppressLint("MissingInflatedId")
+    TextView mvtolog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
