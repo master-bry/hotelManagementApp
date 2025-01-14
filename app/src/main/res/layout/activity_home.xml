@@ -4,16 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Home">
+    android:orientation="vertical"
+    android:rotationX="-72"
+    android:visibility="visible"
+    tools:context=".Home"
+    tools:visibility="visible">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/hotel1"
-            android:contentDescription="image"
             android:layout_gravity="fill"
-            android:padding="100dp"/>
+            android:contentDescription="image"
+            android:padding="100dp"
+            android:src="@drawable/hotel1"
+            tools:ignore="HardcodedText" />
 
 </LinearLayout>
